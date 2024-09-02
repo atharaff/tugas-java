@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script lang="javascript" src="java.js"></script>
+    <link rel="stylesheet" href="styles1.css" />
+    <title>Web regis</title>
+  </head>
+  <body>
+    <section id="atas"></section>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/scout.png" alt="logo" />
+            <span>yok join</span>
+          </a>
+        </div>
+        <div class="nav_menu_btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#atas">beranda</a></li>
+        <li><a href="#">tentang</a></li>
+        <li><a href="#daftar">daftar</a></li>
+        <li><a href="#">berita</a></li>
+      </ul>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <img src="assets/pramuka.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h2>daftar pramuka</h2>
+        <h1>
+           <br /><span class="h1__span-1"></span>
+          <span class="h1__span-2">SMK Negeri 1 Purwosari</span>
+        </h1>
+        <p>
+          selamat datang d web pendaftaran ekstra pramuka SMK Negeri 1 Purwosari, pramuka di sini berjalan dengan baik atau bisa di bilang lancar dengan semua adenda yang mereka buat
+        </p>
+        <div class="header__btn">
+          <button class="btn">daftar</button>
+        </div>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+          </li>
+        </ul>
+       
+      </div>
+    </header>
+<hr>
+<section id="daftar"></section>
+<div class="container">
+<form id="amb">
+  <h3 align="center">Isi Data Di Bawah Ini</h3>
+    <div class="form-group1">
+         <label for="nama">Nama Lengkap: </label>
+         <input type="text" for="nama" name="nama" id="nama" value="" oninput="validasi2()"    required>
+    </div>
+
+    
+    <div class="form-group">
+        <label for="buku">ekstra: </label>
+    <select id="buku" name="buku" required>
+      <option value="">pramuka</option>
+      <option value="a">pramuka</option>
+      <option value="b">osis</option>
+      <option value="c">pks</option>
+      <option value="d">pmr</option>
+      <option value="e">paskibra</option>
+      <option value="f">ethic</option>
+    </select>
+   </div>
+   <div class="form-group">
+    <label for="Pekerjaan">kelas:</label>
+    <select id="Pekerjaan" name="Pekerjaan" required>
+      <option value="">Pilih</option>
+      <option value="j">dkv</option>
+      <option value="o">rpl</option>
+      <option value="l">tkj</option>
+      <option value="P">tpm</option>
+      <option value="d">DLL</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="jenis_kelamin">Jenis Kelamin:</label>
+    <select id="jenis_kelamin" name="jenis_kelamin" required>
+      <option value="">Pilih Jenis Kelamin</option>
+      <option value="L">Laki-laki</option>
+      <option value="P">Perempuan</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary" onclick="validasi1()">Kirim</button>
+   <div class="footer">
+     <div class="header__bar">
+        Copyright © 2024 Web pendaftaran. Pramuka SMK Nusa.
+      </div>
+</div>
+</form>
+</div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
